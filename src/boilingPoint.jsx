@@ -2,7 +2,7 @@ import React from "react";
 import { useConverter } from "./converterContext";
 
 const BoilingPointChecker = () => {
-  const { celsius, fahrenheit, checkBoilingPoint } = useConverter();
+  const { checkBoilingPoint } = useConverter();
 
   return (
     <div className="boiling-point">
